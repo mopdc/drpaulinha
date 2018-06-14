@@ -1,0 +1,25 @@
+.System-bar {
+    height: 25px;
+    background-color: #c0c0c0;
+    opacity: 0.95;
+}
+
+.System-bar-title {
+    margin-top: 4px;
+    margin-left: 10px;
+    font-size: 14px;
+    color: black;
+}
+
+.System-bar-title-right {
+    right: 0;
+    margin-right: 15px;
+}
+
+.Shadow{
+    box-shadow: 10px 5px 30px 1px black;
+}
+
+.Space{
+    margin-left: 15px;
+}

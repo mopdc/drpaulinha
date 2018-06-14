@@ -1,0 +1,82 @@
+input,
+textarea,
+[contenteditable] {
+  color: transparent;
+  caret-color: transparent;
+}
+
+.Bar-controls{
+    position: absolute;
+    margin-top: 3px;
+}
+
+.Console {
+    background: black;
+    position: fixed;
+    width: 50vw;
+    height: 50vh;
+    margin: 25vh 0 0 25vw;
+    color: #c0c0c0;
+    font-size: 12px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.Console-body{
+    opacity: 0.9;
+    font-family: monospace;
+}
+
+.Console-bar {
+    border-radius: 5px 5px 0px 0px;
+    height: 20px;
+    background-color: #c0c0c0;
+    text-align: center;
+}
+
+.Console-bar-title {
+    font-size: 12px;
+    color: black;
+}
+
+.Console-history {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+}
+
+.Console-input {
+    padding-left: 8px;
+    display: flex;
+    display: -webkit-flex;
+    line-height: 30px;
+}
+
+.Console-input-host {
+    color: #969595;
+}
+
+.Console-input-text {
+    padding-left: 5px;
+    min-width: 1px;
+    height:30px;
+    line-height:30px;
+    outline:none;
+    font-family: monospace;
+    color: #c0c0c0;
+    font-size: 12px;
+}
+
+.Console-input-cursor {
+    margin-top: 9px;
+    background-color: #c0c0c0;
+    width: 6px;
+    height: 12px;
+    animation: blinker 0.8s ease-in-out infinite;
+}
+
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,20 @@
+body{
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  /*background-color: #c0c0c0;*/
+  /*background-image: url('./background.jpg');*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.Container{
+	margin-top: 10vh;
+	text-align: center;
+}
+
+.Img{
+	margin-top: 10vh;
+	width: 100vw;
+}
