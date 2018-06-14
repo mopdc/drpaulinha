@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <div className="Container">
-          <h2>Contagem regressiva</h2>
+          <h2>Contagem regressiva - CRM</h2>
           <Countdown date="2019-06-28T18:00:00" />
           <img className="Img" src={foto} />
       </div>
